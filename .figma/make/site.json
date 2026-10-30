@@ -1,0 +1,11 @@
+{
+  "title": "TTBDO IPASA",
+  "description": "Streamlines intellectual property submissions and tracking for university inventors and staff with dashboards, application wizards, and document management.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

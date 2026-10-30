@@ -1,0 +1,21 @@
+/* Move Sonner toast close button to the right side */
+[data-close-button] {
+  left: auto !important;
+  right: 0 !important;
+}
+
+/* Global button hover emphasis */
+button:not(:disabled) {
+  cursor: pointer;
+  transition: box-shadow 0.15s ease, transform 0.1s ease, opacity 0.15s ease;
+}
+
+button:not(:disabled):hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+button:not(:disabled):active {
+  transform: translateY(0px) scale(0.98);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.10);
+}
